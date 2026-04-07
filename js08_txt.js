@@ -102,6 +102,9 @@ function playDrawPoker() {
 
       //  Evaluate thehand drawn by user
       statusBox.textContent = myHand.getHandValue();
+
+      // Update the bank value
+      bankBox.value = pokerGame.payBet(statusBox.textContent);
    });
    
     
@@ -114,6 +117,9 @@ function playDrawPoker() {
 
       // Evaluate the hand drawn by user
       statusBox.textContent = myHand.getHandValue();
+
+      // Update the bank value
+      bankBox.value = pokerGame.payBet(statusBox.textContent);
    });
    
    

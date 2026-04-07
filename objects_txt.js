@@ -36,6 +36,8 @@ let pokerGame = {
          case "Two Pair": pay = 2; break;
          case "Jacks or Better": pay = 1; break;
       }
+      this.currentBank += pay*this.currentBet;
+      return this.currentBank;
    }
 };
 
