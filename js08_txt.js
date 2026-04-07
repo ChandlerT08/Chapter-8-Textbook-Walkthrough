@@ -96,7 +96,7 @@ function playDrawPoker() {
          if(cardImages[i].src.includes("cardback.png")){
             // replace the card and its image on the table
             myHand.replaceCard(i, myDeck);
-            cardImages[i].scr = myHand.cards[i].cardImage();
+            cardImages[i].src = myHand.cards[i].cardImage();
          }
       }
 
