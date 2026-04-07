@@ -55,7 +55,7 @@ pokerCard.prototype.cardImage = function() {
 function pokerDeck() {
    // List the suits and ranks
    let suits = ["clubs", "diamonds", "hearts", "spades"];
-   let ranks = ["2", "3", "4", "5", "6", "7", "9", "10", "jack", "queen", "king", "ace"];
+   let ranks = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king", "ace"];
    this.cards = [];
 
    // Add a card for each combination of suit and rank
