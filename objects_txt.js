@@ -28,11 +28,11 @@ let pokerGame = {
       switch (type){
          case "Royal Flush": pay = 250; break;
          case "Straight Flush": pay = 50; break;
-         case "Four of a kind": pay = 25; break;
+         case "Four of a Kind": pay = 25; break;
          case "Full House": pay = 9; break;
          case "Flush": pay = 6; break;
          case "Straight": pay = 4; break;
-         case "Three of a kind": pay = 3; break;
+         case "Three of a Kind": pay = 3; break;
          case "Two Pair": pay = 2; break;
          case "Jacks or Better": pay = 1; break;
       }
@@ -82,7 +82,7 @@ function pokerDeck() {
 
 /* Constructor function for poker hands */
 function pokerHand(handLength){
-   this.cards = new Array(handLength);
+   this.cards = [];
 }
 
 // Method to replcae a card in a hand with a card from a deck
